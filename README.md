@@ -1,6 +1,6 @@
 # netuniq
 
-Netuniq processes a list of hosts, CIDR ranges, and IPs on stdin and deduplicates them.
+Netuniq accepts a list of hosts, CIDR ranges, and IPs on stdin and deduplicates them. It will also filter out any domains that do not have an A record associated with them.
 
 ## Usage
 
