@@ -49,7 +49,7 @@ func (r *Result) AddHost(h *Host) {
 
 func (r *Result) ContainsHost(h *Host) bool {
 	for _, hh := range r.Hosts {
-		if hh.Name == h.Name {
+		if hh.Name != "" && hh.Name == h.Name {
 			return true
 		}
 	}
