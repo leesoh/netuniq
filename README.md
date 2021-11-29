@@ -41,6 +41,6 @@ $ cat test.txt | ./netuniq -json
 ## Install
 
 ```sh
-go install github.com/leesoh/netuniq@latest
+go install github.com/leesoh/netuniq/cmd/netuniq@latest
 ```
 
